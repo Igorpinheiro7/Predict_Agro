@@ -1,7 +1,7 @@
 # 🌾 Previsão de Culturas Agrícolas com Machine Learning
 <img width="530" height="354" alt="Image" src="https://github.com/user-attachments/assets/038008dd-04d9-48a0-acc3-2e3ffbd31174" />
 
-# Problema
+# 📑 Estudo de Caso
 
 Medir métricas essenciais do solo, como níveis de nitrogênio, fósforo, potássio e valor de pH, é fundamental para avaliar as condições do solo. Porém, esse processo pode ser caro e demorado, levando agricultores a priorizar quais métricas medir conforme o orçamento disponível.
 
