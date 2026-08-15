@@ -4,13 +4,13 @@
 # 🎯 Objetivo
 O objetivo principal deste projeto é ajudar agricultores a escolher a cultura ideal (crop) para o seu solo com base em métricas de nutrientes e propriedades químicas (Nitrogênio N, Fósforo P, Potássio K e pH).
 
-# Importação dos dados para análise
+# 📊 Importação dos dados para análise
 
 <img width="870" height="646" alt="Image" src="https://github.com/user-attachments/assets/9c4f4758-2980-4bb4-9c2b-2b946bb83d8c" />
 
 <img width="885" height="642" alt="Image" src="https://github.com/user-attachments/assets/0580d07e-3b33-435b-8abf-1048ff88a9fa" />
 
-# Análise por Característica Individual
+# 🔍 Análise por Característica Individual
 
 Este bloco de código abaixo foi responsável por treinar e avaliar um modelo de regressão logística para cada uma das características (N, P, K, pH) separadamente, a fim de identificar qual delas tem o maior poder preditivo.
 
@@ -26,14 +26,14 @@ Como pode ser visto, a característica 'K' (Potássio) possui o F1-Score mais al
 *   **Fósforo (P)**: O Fósforo (P) teve um F1-Score de **0.1476**, indicando um poder preditivo menor que o Potássio, mas ainda superior ao Nitrogênio.
 *   **Nitrogênio (N)**: O Nitrogênio (N) apresentou o menor F1-Score de **0.0915** entre os três, sugerindo que, por si só, é o menos eficaz para prever a cultura neste dataset.
 
-# Características padronizadas
+# 📏 Características padronizadas
 
 <img width="840" height="637" alt="image" src="https://github.com/user-attachments/assets/3a4c7b04-dd51-4450-ab5f-05e0b349e313" />
 <img width="1100" height="701" alt="image" src="https://github.com/user-attachments/assets/b6d85934-0ee1-4ad2-b05e-7f857cd1d819" />
 
 Com base na análise individual, o **Potássio (K)** é a característica do solo mais importante e preditiva dentre N, P e K para determinar a cultura mais adequada. No entanto, é crucial lembrar, conforme demonstrado no modelo com **Todas as Características Padronizadas**, que a combinação e padronização de todos os nutrientes (N, P, K e pH) oferece um desempenho preditivo significativamente superior, atingindo um F1-Score de **0.6475**. Isso reforça que, embora K seja o melhor isoladamente, o cenário mais eficaz para o agricultor envolve a medição e análise conjunta de todos os parâmetros.
 
-# Matriz de Correlação de Nutrientes
+# 🌱 Matriz de Correlação de Nutrientes
 
 <img width="688" height="243" alt="image" src="https://github.com/user-attachments/assets/4b634fdf-9257-4e3e-acb6-62e63bd0ecdf" />
 <img width="637" height="528" alt="Image" src="https://github.com/user-attachments/assets/4523a2aa-9978-4545-870a-cc8e27ec85d7" />
@@ -71,7 +71,7 @@ Vamos analisar as correlações mais notáveis:
 
 Em resumo, a relação mais notável e significativa é a **forte correlação positiva entre Fósforo (P) e Potássio (K)**. As outras características (N e pH) têm relações mais fracas entre si e com P e K. Esta análise pode ser útil para entender como os nutrientes interagem no solo.
 
-# Análise Comparativa entre Nitrogênio (N), Fósforo (P) e Potássio (K)
+# 🧪 Análise Comparativa entre Nitrogênio (N), Fósforo (P) e Potássio (K)
 
 <img width="1053" height="281" alt="image" src="https://github.com/user-attachments/assets/d583c39c-6bdc-442f-b953-dcd6b72f5bc5" />
 <img width="1280" height="641" alt="image" src="https://github.com/user-attachments/assets/2bcce139-5cc2-4cde-b47d-8ef4899210c8" />
