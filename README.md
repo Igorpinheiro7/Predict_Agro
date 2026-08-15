@@ -1,6 +1,21 @@
 # 🌾 Previsão de Culturas Agrícolas com Machine Learning
 <img width="530" height="354" alt="Image" src="https://github.com/user-attachments/assets/038008dd-04d9-48a0-acc3-2e3ffbd31174" />
 
+# Problema
+
+Medir métricas essenciais do solo, como níveis de nitrogênio, fósforo, potássio e valor de pH, é fundamental para avaliar as condições do solo. Porém, esse processo pode ser caro e demorado, levando agricultores a priorizar quais métricas medir conforme o orçamento disponível.
+
+Ao decidir qual cultura plantar a cada safra, os agricultores têm várias opções. O objetivo principal é maximizar a produtividade, levando em conta diferentes fatores. Um fator crucial que afeta o crescimento das culturas é a condição do solo no campo, que pode ser avaliada medindo elementos básicos como os níveis de nitrogênio e potássio. Cada cultura tem uma condição de solo ideal que favorece o desenvolvimento e a produtividade máximos.
+
+Um agricultor nos procurou para ajudar a escolher a melhor cultura para o seu campo. Ele forneceu um conjunto de dados chamado soil_measures.csv, que contém:
+
+"N": proporção de nitrogênio no solo
+"P": proporção de fósforo no solo
+"K": proporção de potássio no solo
+valor de "pH" do solo
+"crop": valores categóricos contendo várias culturas.
+Cada linha desse conjunto de dados representa diversas medidas do solo em um determinado campo. Com base nessas medições, qual a cultura indicada na coluna "crop", é a melhor escolha para aquele campo.
+
 # 🎯 Objetivo
 O objetivo principal deste projeto é ajudar agricultores a escolher a cultura ideal (crop) para o seu solo com base em métricas de nutrientes e propriedades químicas (Nitrogênio N, Fósforo P, Potássio K e pH).
 
