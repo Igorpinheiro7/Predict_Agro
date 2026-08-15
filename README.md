@@ -71,4 +71,7 @@ Vamos analisar as correlações mais notáveis:
 
 Em resumo, a relação mais notável e significativa é a **forte correlação positiva entre Fósforo (P) e Potássio (K)**. As outras características (N e pH) têm relações mais fracas entre si e com P e K. Esta análise pode ser útil para entender como os nutrientes interagem no solo.
 
+# Análise Comparativa entre Nitrogênio (N), Fósforo (P) e Potássio (K)
+
+<img width="1053" height="281" alt="image" src="https://github.com/user-attachments/assets/d583c39c-6bdc-442f-b953-dcd6b72f5bc5" />
 
