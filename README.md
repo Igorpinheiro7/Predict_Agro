@@ -97,6 +97,7 @@ Em resumo, a relação mais notável e significativa é a **forte correlação p
 Potássio (K): Com um F1-Score de 0.2390, o Potássio (K) demonstrou ser a característica individual mais preditiva entre N, P e K para a seleção da cultura. Isso significa que, quando utilizado isoladamente, o nível de K no solo é o que melhor ajuda o modelo a classificar corretamente a cultura ideal.
 Fósforo (P): O Fósforo (P) teve um F1-Score de 0.1476, indicando um poder preditivo menor que o Potássio, mas ainda superior ao Nitrogênio.
 Nitrogênio (N): O Nitrogênio (N) apresentou o menor F1-Score de 0.0915 entre os três, sugerindo que, por si só, é o menos eficaz para prever a cultura neste dataset.
-Conclusão:
+
+**Solução:**
 
 Com base na análise individual, o Potássio (K) é a característica do solo mais importante e preditiva dentre N, P e K para determinar a cultura mais adequada. No entanto, é crucial lembrar, conforme demonstrado no modelo com Todas as Características Padronizadas, que a combinação e padronização de todos os nutrientes (N, P, K e pH) oferece um desempenho preditivo significativamente superior, atingindo um F1-Score de 0.6475. Isso reforça que, embora K seja o melhor isoladamente, o cenário mais eficaz para o agricultor envolve a medição e análise conjunta de todos os parâmetros.
