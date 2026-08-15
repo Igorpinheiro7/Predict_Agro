@@ -38,4 +38,37 @@ Com base na análise individual, o **Potássio (K)** é a característica do sol
 <img width="688" height="243" alt="image" src="https://github.com/user-attachments/assets/4b634fdf-9257-4e3e-acb6-62e63bd0ecdf" />
 <img width="637" height="528" alt="Image" src="https://github.com/user-attachments/assets/4523a2aa-9978-4545-870a-cc8e27ec85d7" />
 
+### Explicação da Matriz de Correlação entre Nutrientes do Solo
+
+A matriz de correlação (apresentada no heatmap anterior) nos mostra a relação linear entre cada par de variáveis numéricas no seu conjunto de dados. Cada célula na matriz contém um coeficiente de correlação, que varia de -1 a 1.
+
+*   **1 (vermelho forte)**: Indica uma correlação positiva perfeita. Quando uma característica aumenta, a outra também aumenta na mesma proporção.
+*   **-1 (azul forte)**: Indica uma correlação negativa perfeita. Quando uma característica aumenta, a outra diminui na mesma proporção.
+*   **0 (cores claras/neutras)**: Indica nenhuma correlação linear. As características não têm uma relação linear clara.
+
+#### Interpretando o Heatmap:
+
+*   **Diagonal**: Os valores na diagonal são sempre **1.00** porque uma variável está perfeitamente correlacionada consigo mesma.
+*   **Cores**: Cores mais quentes (vermelho) indicam correlações positivas mais fortes, enquanto cores mais frias (azul) indicam correlações negativas mais fortes. Tons mais claros indicam correlações mais fracas.
+
+#### Análise das Relações:
+
+Vamos analisar as correlações mais notáveis:
+
+*   **Fósforo (P) e Potássio (K)**: Observamos um valor de **0.74** entre P e K. Isso indica uma **forte correlação positiva**. Em solos onde o nível de Fósforo é alto, é provável que o nível de Potássio também seja alto, e vice-versa. Isso é uma relação importante a ser considerada.
+
+*   **Nitrogênio (N)**: O Nitrogênio tem correlações relativamente fracas com as outras características:
+    *   **-0.23** com Fósforo (P): Uma correlação negativa fraca, sugerindo que um aumento em N pode estar ligeiramente associado a uma diminuição em P, mas a relação não é forte.
+    *   **-0.14** com Potássio (K): Uma correlação negativa muito fraca, quase insignificante.
+    *   **0.10** com pH: Uma correlação positiva muito fraca, quase insignificante.
+    Isso sugere que a quantidade de Nitrogênio no solo não varia de forma linear significativa com os níveis de P, K ou pH, sendo mais independente dessas variáveis.
+
+*   **pH**: O pH do solo mostra correlações fracas com os outros nutrientes:
+    *   **-0.14** com Fósforo (P).
+    *   **-0.17** com Potássio (K).
+    *   **0.10** com Nitrogênio (N).
+    Esses valores indicam que, embora haja pequenas tendências (negativas com P e K, positiva com N), o pH não tem uma relação linear forte com nenhum dos três nutrientes. Ou seja, o pH do solo não é um forte preditor dos níveis de N, P ou K de forma linear.
+
+Em resumo, a relação mais notável e significativa é a **forte correlação positiva entre Fósforo (P) e Potássio (K)**. As outras características (N e pH) têm relações mais fracas entre si e com P e K. Esta análise pode ser útil para entender como os nutrientes interagem no solo.
+
 
