@@ -1,4 +1,5 @@
 # 🌾 Previsão de Culturas Agrícolas com Machine Learning
+
 <img width="1376" height="768" alt="Image" src="https://github.com/user-attachments/assets/fe9b67f2-e5c4-4c32-b2bb-cfa157a8c66d" />
 
 
